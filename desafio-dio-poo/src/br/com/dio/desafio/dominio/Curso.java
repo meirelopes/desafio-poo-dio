@@ -7,7 +7,6 @@ public class Curso {
 	private int cargaHoraria;
 	
 	public Curso() {
-		
 	}
 	
 	public String getTitulo() {
@@ -31,13 +30,11 @@ public class Curso {
 	
 	@Override
 	public String toString() {
-		return "Curso [titulo=" + titulo + ", descricao=" + descricao + ", cargaHoraria=" + cargaHoraria
-				+ ", getTitulo()=" + getTitulo() + ", getDescricao()=" + getDescricao() + ", getCargaHoraria()="
-				+ getCargaHoraria() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
-				+ super.toString() + "]";
+		return "Curso [titulo=" + titulo + ", descricao=" + descricao + ", cargaHoraria=" + cargaHoraria + "]";
 	}
+
 	
-	
+
 	
 
 }

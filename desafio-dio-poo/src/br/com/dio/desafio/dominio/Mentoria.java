@@ -9,8 +9,7 @@ public class Mentoria {
 	private LocalDate data;
 	
 	public Mentoria() {
-			
-		}
+	}
 	
 	public String getTitulo() {
 		return titulo;
@@ -30,13 +29,14 @@ public class Mentoria {
 	public void setData(LocalDate data) {
 		this.data = data;
 	}
-	
+
 	@Override
 	public String toString() {
-		return "Mentoria [titulo=" + titulo + ", descricao=" + descricao + ", data=" + data + ", getTitulo()="
-				+ getTitulo() + ", getDescricao()=" + getDescricao() + ", getData()=" + getData() + ", getClass()="
-				+ getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+		return "Mentoria [titulo=" + titulo + ", descricao=" + descricao + ", data=" + data + "]";
 	}
+	
+	
+	
 	
 	
 
