@@ -42,6 +42,7 @@ public class Dev {
 	}
 
 	public Set<Conteudo> getConteudosIncritos() {
+		
 		return conteudosIncritos;
 	}
 
@@ -74,7 +75,4 @@ public class Dev {
 		return Objects.equals(conteudosConcluidos, other.conteudosConcluidos)
 				&& Objects.equals(conteudosIncritos, other.conteudosIncritos) && Objects.equals(nome, other.nome);
 	}
-	
-	
-
 }
